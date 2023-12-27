@@ -1,11 +1,22 @@
 # Task-rev
 - Node version -20.10.0
 ## Setup Instructions
-1. **Initialize the project:**
-    - Create a `package.json` file if it doesn't exist: `npm init -y`
-2. **Install dependencies:**
-   ```bash
-   npm install express jsonwebtoken dotenv nodemon mongoose express-validator
+1. Clone the project
+```
+    git clone https://github.com/singhprakhar32/Task-rev.git
+``````
+2. Move into the directory
+```
+    cd Task-rev 
+```
+3. install dependencies
+```
+    npm i
+```
+4. run the server
+```
+    nodemon server
+```
 
 # Features
  - Create a new User
@@ -16,5 +27,4 @@
 # For installing dependencies
     npm install
 
-# Run a Project
-- nodemon start
+
